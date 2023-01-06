@@ -10,8 +10,49 @@ body {
 	counter-reset: my-list;
 }
 
+#show_bg {
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.99), rgba(117, 19, 93, 0.73)),
+    url('img/tim-marshall-cAtzHUz7Z8g-unsplash.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#topnav {
+  background-color: black;
+  display:block;
+  color: yellow;
+  height: 50px;
+  top: 0;
+}
+  
+#logo {
+ background:#000 url(img/charity-logo.svg) no-repeat center top;
+ height: 40px;
+ width: 50px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-top: 5px;
+ top: 0;
+}
+
+#logo a {
+   color: yellow;
+   display:block;
+   position:absolute;
+   /* width:300px; */
+   z-index:100; /* Places <span> on top of <a> text */  
+   text-decoration: none;
+   margin-left: 50px;
+ }
+   
 .container {
+	height: 200px;
+	width: 500px;
+	margin: auto;
 	padding: 50px 70px;
+	margin-top: 100px;
 	border-radius: 10px;
 	background-color: white;
 	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
@@ -53,7 +94,7 @@ li:before {
 	content: counter(ordered-list);
 	font-family: "Sharpie", sans-serif;
 	margin-right: 10px;
-	background-color: #ff4e4e;
+	background-color: darkred;
 	color: #f6f6f6;
 	border-radius: 5px;
 	display: flex;
