@@ -64,6 +64,61 @@
     </div>
   </section>
 
+
+<!-- News section-->
+
+
+<section class="bg-black text-white py-20 px-6">
+    <div class="container mx-auto text-left">
+       <div id="substack-feed-embed"></div>
+        <script>
+            window.SubstackFeedWidget = {
+                substackUrl: "divdcharity.substack.com",
+                posts: 3,
+                layout: "right",
+                hidden: ["author", "reactions", "comments"],
+                colors: {
+                primary: "#FFD736",
+                secondary: "#FFFFFF0",
+                background: "#000000",
+                }
+            };
+            </script>
+            <script src="https://substackapi.com/embeds/feed.js" async></script>
+            
+            <br />
+            <div class="container mx-auto text-center">
+            <div id="custom-substack-embed"></div>
+
+
+            <script>
+              window.CustomSubstackWidget = {
+                substackUrl: "divdcharity.substack.com",
+                placeholder: "example@gmail.com",
+                buttonText: "Subscribe",
+                theme: "custom",
+                colors: {
+                  primary: "#FFD736",
+                  input: "#000000",
+                  email: "#FFFFFF",
+                  text: "#000000",
+                },
+            
+                // Go to substackapi.com to unlock custom redirect
+            
+              };
+            </script>
+            <script src="https://substackapi.com/widget.js" async></script>
+            </div>
+
+        </div>
+</section>
+
+
+
+
+<!-- end of News section-->
+
   <!-- Projects & Principles Section -->
   <section id="projects" class="py-16">
     <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8">
