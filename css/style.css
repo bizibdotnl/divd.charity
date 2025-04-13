@@ -1,6 +1,29 @@
 *{
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Arial Rounded MT';
+    src: url('/fonts/ArialRoundedMTBold.eot');
+    src: url('/fonts/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/ArialRoundedMTBold.woff2') format('woff2'),
+        url('/fonts/ArialRoundedMTBold.woff') format('woff'),
+        url('/fonts/ArialRoundedMTBold.ttf') format('truetype'),
+        url('/fonts/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+font-family: 'Arial Rounded MT';
+src: url('/fonts/ArialRoundedMTBold.eot');
+src: url('/fonts/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ArialRoundedMTBold.woff2') format('woff2'),
+    url('/fonts/ArialRoundedMTBold.woff') format('woff'),
+    url('/fonts/ArialRoundedMTBold.ttf') format('truetype'),
+    url('/fonts/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+font-weight: bold;
+font-style: normal;
+font-display: swap;
+}
+
 
 /* p{
     color: rgba(199, 205, 205, 1);
@@ -12,7 +35,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 /* voorouders */
 .row-voorouders{
-    background-color: #161615;
+    background-color: #000000;
     color: #ffffff; 
     margin-top: 1em;
     margin-bottom: 1em;
@@ -35,7 +58,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     }
 }
 .card-yellow{
-    background-color: #FDF941;
+    background-color: #ffd736;
     color: #000000 !important;
     border-radius: 5px;
     border: none;
@@ -46,7 +69,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 .card-black a{
 
-    color: #FDF941;
+    color: #ffd736;
  
 
 }
@@ -66,11 +89,11 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 .menu li a{
 
-    border: 3px solid #FDF941;
+    border: 3px solid #ffd736;
     border-radius: 60px; 
     padding: 5px 30px; 
     background-color: #000; 
-    color: #FDF941 important;  
+    color: #ffd736 important;  
     font-size: 16px; 
     font-weight: bold; 
     cursor: pointer;
@@ -80,7 +103,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 
 .menu li a:hover {
-    background-color: #FDF941;
+    background-color: #ffd736;
     color: #000;
 }
 
@@ -134,7 +157,7 @@ left: 0;
 .yellow-btn{
     * text-decoration: none;
     color: #000000;
-    background-color: #FDF941;
+    background-color: #ffd736;
     padding: 10px 35px;
     border-radius: 5px;
     display: block;
@@ -200,7 +223,7 @@ left: 0;
     max-width: 800px;
 }
 .section-banner h1 {
-    color: yellow;
+    color: #ffd736;
     font-size: 35px;
     margin-bottom: 10px;
 }

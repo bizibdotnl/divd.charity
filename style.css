@@ -1,17 +1,17 @@
 :root {
-  --clr-accent-500: rgb(244, 241, 70);
-  --clr-accent-400: rgb(244, 241, 70);
-  --clr-accent-300: rgb(225, 223, 137);
-  --clr-accent-100: rgb(244, 241, 70);
+  --clr-accent-500: #ffd736;
+  --clr-accent-400: #ffd736;
+  --clr-accent-300: #ffd736;
+  --clr-accent-100: #ffd736;
 
-  --clr-primary-400: hsl(228, 39%, 23%);
+  --clr-primary-400: hsl(0, 0%, 0%);
 
   --clr-neutral-900: hsl(232, 12%, 13%);
   --clr-neutral-300: hsl(0 0% 97%);
   --clr-neutral-200: hsl(0 0% 97%);
   --clr-neutral-100: rgb(0, 0, 0);
 
-  --ff-primary: "Be Vietnam Pro", sans-serif;
+  --ff-primary: "Arial Rounded MT", sans-serif;
 
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
@@ -55,7 +55,58 @@
   }
 }
 
-// https://piccalil.li/blog/a-modern-css-reset
+
+@font-face {
+  font-family: 'Arial Rounded MT';
+  src: url('/fonts/ArialRoundedMTBold.eot');
+  src: url('/fonts/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/ArialRoundedMTBold.woff2') format('woff2'),
+      url('/fonts/ArialRoundedMTBold.woff') format('woff'),
+      url('/fonts/ArialRoundedMTBold.ttf') format('truetype'),
+      url('/fonts/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+a {
+  color: #ffd736; 
+  text-decoration: underline; 
+}
+
+a:hover {
+  color: #ffd736;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffd736;
+  text-decoration: underline; 
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: 'Arial Rounded MT';
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+p {
+  color: #ffd736;
+  font-family: 'Arial Rounded MT';
+}
+
+h2 {
+  color: #ffd736;
+  font-family: 'Arial Rounded MT';   
+}
+
 
 /* Box sizing rules */
 *,
